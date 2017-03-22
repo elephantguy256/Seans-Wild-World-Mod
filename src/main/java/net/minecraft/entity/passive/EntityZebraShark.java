@@ -1,9 +1,9 @@
 package net.minecraft.entity.passive;
 
+import com.example.examplemod.mainRegistry;
+
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.passive.EntityWaterMob;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MathHelper;
@@ -101,7 +101,7 @@ public class EntityZebraShark extends EntityWaterMob
 
         for (int k = 0; k < j; ++k)
         {
-            this.entityDropItem(new ItemStack(Items.dye, 1, 0), 0.0F);
+            this.entityDropItem(new ItemStack(mainRegistry.zebra_shark_tooth, 1, 0), 0.0F);
         }
     }
 

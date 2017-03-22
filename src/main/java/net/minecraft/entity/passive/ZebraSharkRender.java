@@ -34,5 +34,5 @@ public class ZebraSharkRender extends RenderLiving{
 	 protected ResourceLocation getEntityTexture(Entity entity) {
 	 return texture;
 	 }
-	 public static ResourceLocation texture = new ResourceLocation("em" + ":" + "textures/entity/preyanimal/zebrashark.png");
+	 public static ResourceLocation texture = new ResourceLocation("em" + ":" + "textures/entities/fish/zebrashark.png");
 }
